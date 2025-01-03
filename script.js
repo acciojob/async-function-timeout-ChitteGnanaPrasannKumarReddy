@@ -24,7 +24,6 @@ submitButton.addEventListener('click', async () => {
     return;
   }
 
-  outputDiv.textContent = 'Waiting...';
 
   const message = await displayMessageAfterDelay(text, delay);
   outputDiv.textContent = message;
